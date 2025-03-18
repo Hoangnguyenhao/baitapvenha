@@ -16,7 +16,7 @@ public class Database {
             stmt.setString(2, email);
             stmt.executeUpdate();
             conn.close();
-            System.out.println("Dữ liệu đã được lưu!");
+            System.out.println("Du lieu da duoc luu!");
         } catch (Exception e) {
             e.printStackTrace();
         }
