@@ -9,7 +9,7 @@ public class FormApp extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("Form Đăng Ký");
+        primaryStage.setTitle("Form Đang ky");
 
         // Tạo layout
         GridPane grid = new GridPane();
@@ -18,7 +18,7 @@ public class FormApp extends Application {
         grid.setVgap(10);
 
         // Label và Input
-        Label nameLabel = new Label("Họ và Tên:");
+        Label nameLabel = new Label("Ho va ten:");
         TextField nameInput = new TextField();
         Label emailLabel = new Label("Email:");
         TextField emailInput = new TextField();
